@@ -1,4 +1,4 @@
-package Step_by_Step;
+package step01_SystemInOut;
 
 import java.util.Scanner;
 
@@ -49,28 +49,7 @@ public class Main
 		else {
 			System.out.println("==");
 		}	
-		
-		//3¹ø
-		int point = sc.nextInt();
 
-		if(point>=90) {
-			System.out.println("A");
-		}
-		else if(point>=80) {
-			System.out.println("B");
-		}
-		else if(point>=70) {
-			System.out.println("C");
-		}
-		else if(point>=60) {
-			System.out.println("D");
-		}
-		else {
-			System.out.println("F");
-		}
-		System.out.println("Hello World!");
-		
-		
 		
 	}
 }

@@ -1,4 +1,4 @@
-package Step_by_Step;
+package step05_array;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Step_by_Step;
+package step01_SystemInOut;
 
 import java.util.Scanner;
 
