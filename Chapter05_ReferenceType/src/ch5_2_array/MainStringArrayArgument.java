@@ -7,6 +7,9 @@ public class MainStringArrayArgument {
 		// 예를 들어 메모장에서 영어는 영어대로, 한글은 한글대로 짜는게 가능할까
 		// 이미 실행시작할때 다 잘 짜여져있음
 		
+		
+		
+		System.out.println(args[0]);
 //		String version ="";
 //		if(args != null) {
 //			version = args[0];
@@ -17,9 +20,9 @@ public class MainStringArrayArgument {
 //			}
 //		}
 //		
-		int var = add(7,3);
-		System.out.println(var);
-		
+//		int var = add(7,3);
+//		System.out.println(var);
+//		
 
 
 		if(args.length != 2) {
