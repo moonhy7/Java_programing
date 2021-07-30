@@ -11,29 +11,31 @@ public class Test01_ArrayMinMaxExample {
 	
 	public static void main(String[] args) {
 //		어떤 1차원 배열 선언, 구현된 메서드 Call해서 사용하는 코드
-		int[] arr = {1,2,3,4,5,6,7};
-		minValue(arr);
-		maxValue(arr);
+		int[] arr = {11, 221, 13, 34, 95, 61, 71};
+//					 |11|26|13|.|.|||||
+		System.out.println("최소값: " + minValue(arr));
+		System.out.println("최소값: " + maxValue(arr));
+
 	}
 	
 	public static int minValue(int[] arr) {
-		int min = 100;
+		int minNum = arr[0]; // 초기값 설정하는 방법 (배열 내 임의의 원소로 설정)
 		for(int i=0;i<arr.length;i++) {
-			if(arr[i]<min) {
-				min = arr[i];
-			}
+			if(arr[i]<minNum) {
+				minNum = arr[i];
+			} 
 		}
-		return min;
+		return minNum;
 	}
 	
 	public static int maxValue(int[] arr) {
-		int max = 0;
+		int maxNum = arr[0]; 
 		for(int i=0;i<arr.length;i++) {
-			if(arr[i]>max) {
-				max = arr[i];
-			}
+			if(arr[i]>maxNum) {
+				maxNum = arr[i];
+			} // 삼항연산자로도 해보기
 		}
-		return max;
+		return maxNum;
 	}
 	
 }
