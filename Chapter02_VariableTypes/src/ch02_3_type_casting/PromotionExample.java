@@ -23,19 +23,13 @@ public class PromotionExample {
 		
 //		값 허용범위가 큰 타입
 //		"값 손실"
-		
-		
-//		
-//		
-//		
+
 		
 //		작은걸 큰그릇에 넣는것은 가능
 //		
 
 		
-		
-		
-		
+			
 		
 //		byte(1) short(2) int(4) long(8)  float(4)  double(8)
 //				char(2) 
@@ -49,19 +43,18 @@ public class PromotionExample {
 //		2문제점 : float보다 long이 더 큰건 맞지만,,,
 		
 //		byte가 중요한게 아니라 표현범위가 중요하다는걸 말하고싶음
-//		int iv = 9; 
-		int iv   = 999999999; //가능한 최대..
-//		long lv = 9L;
-		long lv  = 999999999_999999999L;
-//		float fv = 9.0f;
-		float fv = 9999999999999999999_9999999999999999999.0f;
+		int iv = 9; 
+//		int iv   = 999999999; //에러 -> 가능한 최대
+		long lv = 9L;
+//		long lv  = 999999999_999999999L;
+		float fv = 9.0f;
+//		float fv = 9999999999999999999_9999999999999999999.0f;
 		
 		System.out.println((int)5.7);
 		System.out.println((int)5.0);
 		
 		
 //		"값 손실" 발생 여부
-
 		
 //		예제 시작
 		

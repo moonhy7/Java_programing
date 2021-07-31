@@ -3,32 +3,37 @@ package ch02_3_type_casting;
 public class CastingExample {
 	public static void main(String[] args) {
 //			강제(명시적)형변환
-//	:~해석하는 방법을 변환...
+//		:~해석하는 방법을 변환...
 //		값손실은 절대 일어나면 안됨
 //		작은 비트에 큰 걸 담는 행위를 강제로 하겠다는게 바로 강제형변환임
 		
 		System.out.println((char)65);
 //		확장(Promotion) : int -----> double 손실(x) 자동
-//		축소(Demotion)  : double -----> int thstlf(o) 강제.. 0.5 --> 0
+//		축소(Demotion)  : double -----> int 손실(o) 강제.. 0.5 --> 0
 		
 		int iv = 127;
 		iv = 1000000; // 변수 값 재할당
 		
-//		byte bv = iv;
-		byte bv = (byte)iv;
-		System.out.println(bv);
+//		byte bv = iv; // 에러 발생 (강제형변환을 해주어야함)
+		
+		System.out.println(iv); //1000000;
+//		System.out.println(bv); // 64
 		
 //		(char) <------  int....long...
+		
+		
 		double dv = 3.14;
 		iv = (int)dv;
-		
-		System.out.println(iv);
+		System.out.println(iv); // 3
 		
 		// "781001-1111111"
 //		int number = (int)"7810011111111";
 		System.out.println("781001-1111111");
 		
-		
+//		int intValue = 129;
+//		byte byteValue = (byte)intValue;
+//		System.out.println(byteValue); //-127
+	
 //		<예제 시작>
 		
 		int intValue = 44032;
