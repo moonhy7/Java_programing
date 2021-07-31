@@ -11,7 +11,7 @@ public class Array_multiplication {
 		
 		int n = Integer.toString(mulNum).length();
 		int[] arrNum = new int[n];
-		int[] arrCount = new int[n];
+		int[] arrCount = new int[10];
 		
 		
 		for(int i=1;i<=n; i++) {
@@ -19,14 +19,13 @@ public class Array_multiplication {
 			mulNum /= 10;
 		}
 		int count = 0;
-		for(int i=0; i<n; i++) {
-			for(int j=1; j<=10; j++) {
-				if(arrNum[i]==j) {
-					count += 1;
+		for(int i=0; i<10; i++) {
+			for(int j=0; j<n; j++) {
+				if(arrNum[j]==i) {
+					arrCount[i] += 1;
 				}
-			}
+			} 
+			System.out.println(arrCount[i]);
 		}
-		
-	
 	}
 }
