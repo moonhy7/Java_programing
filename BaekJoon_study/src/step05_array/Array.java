@@ -2,7 +2,7 @@ package step05_array;
 
 import java.util.Scanner;
 
-public class Step05_Array {
+public class Array {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		int[] arr = new int[9];
