@@ -14,7 +14,7 @@ public class LogicalOperatorExample {
 		
 		if (!(charCode<48) && !(charCode>57)) {
 			System.out.println("0~9 숫자군요");
-		}
+		} 
 		
 		int value = 6;
 		

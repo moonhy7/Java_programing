@@ -13,5 +13,5 @@ public class AssignmentOperationExample {
 		System.out.println("result=" + result); //3
 		result %= 3;
 		System.out.println("result=" + result); //0
-	}
+	} 
 }

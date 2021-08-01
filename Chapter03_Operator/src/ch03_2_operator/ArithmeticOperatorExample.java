@@ -10,7 +10,7 @@ public class ArithmeticOperatorExample {
 		
 		int result2 = v1 - v2;
 		System.out.println("result2=" + result2); // 3
-		
+		 
 		int result3 = v1 * v2;
 		System.out.println("result3=" + result3); // 10
 		

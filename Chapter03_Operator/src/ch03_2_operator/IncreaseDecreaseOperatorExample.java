@@ -20,7 +20,7 @@ public class IncreaseDecreaseOperatorExample {
 		z = x++;
 		System.out.printf("z= %d\n", z); // z = 12
 		System.out.printf("x= %d\n", x); // x = 13
-		
+		 
 		System.out.println("--------------------");
 		z = ++x;
 		System.out.printf("z= %d\n", z); // z = 14
