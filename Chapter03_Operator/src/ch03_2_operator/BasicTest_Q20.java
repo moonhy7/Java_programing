@@ -15,7 +15,7 @@ public class BasicTest_Q20 {
 		result = ((num1 += 10) >0 || (num2 += 10) > 0); //or Á¶°Ç
 		System.out.printf("num1=%d, num2=%d\n",num1,num2); // 20, 0
 		
-		
+		 
 	
 	}
 }

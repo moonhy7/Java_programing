@@ -5,7 +5,7 @@ public class IfDiceExample {
 		System.out.println(Math.random()); // 임의의정수 하나 얻기
 		
 		System.out.println(Math.random()); //0~1 사이 실수를 무작위로 꺼냄
-		
+		  
 		int number= (int) (10 * (Math.random()));
 		System.out.println(number);
 
