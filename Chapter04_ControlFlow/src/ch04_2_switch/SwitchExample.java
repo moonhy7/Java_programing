@@ -5,10 +5,8 @@ public class SwitchExample {
 		
 		//분기로 나누는게 else if, 변수로 나누는게 switch ?
 		
-		
 		//switch문은 예제를 하나 암기해놓으면 나중에 기억하기 좋음
 		// break가 하나하나 있어야함, 
-
 		
 		// break가 돌아가는 예시를 보여줌
 		int score = 85;

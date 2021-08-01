@@ -7,17 +7,17 @@ public class ForSumFrom1to100Example2 {
 //		for(i=1;i<=100;i++) {
 //			sum += i;
 //		}
-//		System.out.println("1~" + (i-1) + " 합 : " + sum); 
+//		System.out.println("1~" + (i-1) + " 합 : " + sum); //1~100 합 : 5050
+
 		//for문을 빠져나온 순간 i값은 101이므로 100이 나오게 하려면 i-1을 출력해야함!!
 		
 		int sum = 0;
 		 int i = 1;
-		 while(i <= 1000) {
+		 while(i <= 100) {
 			 sum += i;
 			 i++;
 		 }
-		 System.out.println("1~5의 합: " + sum);
-		 
+		 System.out.println("1~100의 합: " + sum);
 	}
 }
 

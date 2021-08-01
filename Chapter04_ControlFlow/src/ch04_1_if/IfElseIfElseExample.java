@@ -15,6 +15,6 @@ public class IfElseIfElseExample {
 		} else {
 			System.out.println("점수가 70 미만입니다."); 
 			System.out.println("등급은 D입니다.");
-		}
+		} 
 	}
 }

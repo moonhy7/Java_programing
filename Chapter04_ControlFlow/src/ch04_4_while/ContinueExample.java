@@ -10,7 +10,7 @@ public class ContinueExample {
 			if(i%2 != 0) {
 				continue;
 			}
-			System.out.print(i+"\t");
+			System.out.print(i+" ");
 		}
 	}
 }

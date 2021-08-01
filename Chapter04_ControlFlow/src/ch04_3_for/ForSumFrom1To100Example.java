@@ -9,3 +9,4 @@ public class ForSumFrom1To100Example {
 		System.out.println("1~100 гу : " + sum);
 	}
 }
+ 
