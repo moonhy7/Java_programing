@@ -3,14 +3,13 @@ package ch05_1_reference_variavle;
 public class StringEqualsExample {
 	public static void main(String[] args) {
 		System.out.println("a");
-		System.out.println("b"); // Unreachable code 에러 발생
-//		return;
+		System.out.println("b"); 
+		// return; -> Unreachable code 에러 발생
 		
 		System.out.println("Hello");
 		System.out.println("Hello".toString()); //같은 결과 출력
 //		System.out.println(0x3BCD.toString()); 이런 의미임
 		System.out.println();
-		
 		
 		String str1 = "java";
 		// string타입은 4바이트로 정해져있음
@@ -25,7 +24,7 @@ public class StringEqualsExample {
 		// 똑같은 주소를 리턴해줌
 		
 		System.out.println(str1 == str2); 
-		// true ->같은 주소에 있음을 알 수 있음
+		// true -> 같은 주소에 있음을 알 수 있음
 		System.out.println(str1.hashCode());
 		System.out.println(str2.hashCode()); // 같은 값 나옴
 		
@@ -57,8 +56,8 @@ public class StringEqualsExample {
 		//실무에서는 이렇게 선언해준다.
 		// String str1 = "java";
 		
-		// 예제 시작
 		
+		// 예제 시작
 		System.out.println("\nString을 그냥 변수타입으로 사용했을때");
 		String strVar1 = "신민철";
 		String strVar2 = "신민철";

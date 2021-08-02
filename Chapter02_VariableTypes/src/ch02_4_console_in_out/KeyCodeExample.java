@@ -13,6 +13,14 @@ public class KeyCodeExample {
 		keyCode = System.in.read();	
 		System.out.println("KeyCode: "+ keyCode);
 		
+		keyCode = System.in.read();	
+		System.out.println("KeyCode: "+ keyCode);
+		
+		keyCode = System.in.read();	
+		System.out.println("KeyCode: "+ keyCode);
+		
+
+		
 //	ÀÇ¹Ì: 
 //	buffer¶õ?	
 		

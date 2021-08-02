@@ -1,4 +1,4 @@
-package ch5_2_array;
+package ch5_2_multiArray;
 
 public class ArrayReferenceObjectExample {
 	public static void main(String[] args) {

@@ -8,8 +8,8 @@ public class ScannerExample {
 		
 		Scanner scan = new Scanner(System.in);
 		scan.hasNextLine();
-		
-		System.out.println("프로그램이 정상적으로 종료되었습니다.");
+		 
+//		System.out.println("프로그램이 정상적으로 종료되었습니다.");
 
 		String inputData;
 //		scanner 클래스에 설계된 데이터,메소드 등이 메모리에 세팅됨
@@ -19,14 +19,11 @@ public class ScannerExample {
 		
 		while(true) {
 			inputData = scan.nextLine(); //구조 암기..하기
-//			소스안보고 치는 연습할것
-			System.out.println("입력된 문자열:");
+			System.out.println("입력된 문자열:" + inputData);
 			if(inputData.equals("q")) {
 				break;
-			}
-			
+			}		
 		}
 		System.out.println("종료");
-
 	}
 }

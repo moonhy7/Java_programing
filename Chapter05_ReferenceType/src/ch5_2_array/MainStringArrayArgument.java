@@ -10,18 +10,18 @@ public class MainStringArrayArgument {
 		
 		
 		System.out.println(args[0]);
-//		String version ="";
-//		if(args != null) {
-//			version = args[0];
-//			if(version.equals("kor")) {
-//				System.out.println("안녕하세요~ " + args[1]);
-//			} else {
-//				System.out.println("Hello~ " + args[1]);
-//			}
-//		}
-//		
-//		int var = add(7,3);
-//		System.out.println(var);
+		String version ="";
+		if(args != null) {
+			version = args[0];
+			if(version.equals("kor")) {
+				System.out.println("안녕하세요~ " + args[1]);
+			} else {
+				System.out.println("Hello~ " + args[1]);
+			}
+		}
+		
+		int var = add(7,3);
+		System.out.println(var);
 //		
 
 

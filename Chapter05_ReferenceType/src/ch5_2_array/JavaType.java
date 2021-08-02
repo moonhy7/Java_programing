@@ -1,4 +1,4 @@
-package ch05_1_reference_variavle;
+package ch5_2_array;
 
 public class JavaType {
 	public static void main(String[] args) {

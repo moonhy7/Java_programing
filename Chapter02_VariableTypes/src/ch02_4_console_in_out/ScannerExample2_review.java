@@ -6,16 +6,7 @@ public class ScannerExample2_review {
 	public static void main(String[] args) {
 		Scanner scn = new Scanner(System.in);
 		String str = "";
-		
-//		while(true) {
-//			str = scn.nextLine();
-//			System.out.printf("입력하신 문자열은 \"%s\"\n",str);
-//			if(str.equalsIgnoreCase("q")) {
-//				break;
-//			}
-//		}
-//		System.out.println("프로그램이 정상적으로 종료되었습니다.");
-	
+
 // 메뉴 고르기
 		while(true) {
 			System.out.println("♥________________♥");
@@ -24,8 +15,9 @@ public class ScannerExample2_review {
 			str = scn.nextLine();
 			System.out.printf("입력하신 메뉴는 \"%s\"입니다.\n",str);
 			if(str.equalsIgnoreCase("q")) {
+				System.out.println("종료");
 				break;
-			}
-		}
+			} 
+		} 
 	}
-}
+} 

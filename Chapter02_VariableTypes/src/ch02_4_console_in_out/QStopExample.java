@@ -4,23 +4,12 @@ import java.io.IOException;
 
 public class QStopExample {
 	public static void main(String[] args) {
-		
-//		[QStopExample]
-//		while(true) {
-//			try {
-//				System.out.printf("keCode: %d\n",System.in.read());
-////				break;									int형 숫자
-//			} catch (IOException e) {
-//				e.printStackTrace();
-//			}
-//		}
-//			System.out.println("프로그램이 정상적으로 종료되었습니다.");
-			
-			
+				
 //		[QStopExample.java]
+		 
 		boolean working = true;
 		int keyCode;
-		while(true) {
+		while(true)  {
 			try {
 				keyCode = System.in.read();
 				System.out.printf("keCode: %d\n",System.in.read());

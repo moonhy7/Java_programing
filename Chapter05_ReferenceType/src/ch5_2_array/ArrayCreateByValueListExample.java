@@ -27,7 +27,7 @@ public class ArrayCreateByValueListExample {
 		scores[0] = 83;
 		scores[1] = 90;
 		scores[2] = 87;
-		
+		 
 		System.out.println("score[0] : " + scores[0]);
 		System.out.println("score[1] : " + scores[1]);
 		System.out.println("score[2] : " + scores[2]);

@@ -18,6 +18,8 @@ public class ArrayCreateByValueListExample2 {
 		// new int[] {83, 90, 87} 이 작업은 힙메모리에 생성된다는것
 		// 주소값을 리턴한다는 말
 		// 이 줄에서 주소를 add메소드로 보냄 
+		
+		
 		int sum2 = add(/*0xBC123*/ new int[] {83,90,87});
 		System.out.println("총합 : " + sum2);
 		System.out.println();

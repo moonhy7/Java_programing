@@ -20,9 +20,7 @@ public class SystemInOut {
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
-		
-		
-		
+
 		
 	}
 }
@@ -42,7 +40,7 @@ public class SystemInOut {
 //keCode: 13
 //keCode: 10 (3개 다 읽어줌) <---printf가 다섯 줄 일때
 
-// 결론 : pritf 문장수 만큼만 읽어준다
+// 결론 : printf 문장 개수 만큼만 읽어준다
 // 난 abcd...xyz 를 다 읽고싶은데,, 너무 불편하다!!
 // 내가 몇개를 입력하던 다 찍고싶을때 해결법!!
 

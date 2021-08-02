@@ -1,4 +1,4 @@
-package ch5_2_array;
+package ch5_2_multiArray;
 
 public class ArrayCopyByForExample {
 	public static void main(String[] args) {
