@@ -1,10 +1,10 @@
 package ch06_3_Constructor;
 
-public class CarExample {
+public class Car1Example {
 	public static void main(String[] args) {
 		// 객체 생성(인스턴스
-		Car myCar = new Car("기아차","카니발","흰색","엔진");
-		Car secondCar = new Car("현대차","아반떼","그레이","엔진"); 
+		Car1 myCar = new Car1("기아차","카니발","흰색","엔진");
+		Car1 secondCar = new Car1("현대차","아반떼","그레이","엔진"); 
 		
 		// 필드값 읽기
 		System.out.println("제작회사: " + secondCar.company);

@@ -17,3 +17,6 @@ public class StudentExample {
 		System.out.println(s2.getNum());
 	}
 }
+
+class A {}
+class B {}

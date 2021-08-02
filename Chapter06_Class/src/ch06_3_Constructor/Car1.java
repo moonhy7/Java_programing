@@ -1,6 +1,6 @@
 package ch06_3_Constructor;
 
-public class Car {
+public class Car1 {
 	// ÇÊµå
 	String company = "";
 	String model = "";
@@ -10,7 +10,7 @@ public class Car {
 	int maxSpeed = 350;
 	int speed;
 	
-	Car(String company, String model, String color, String engin) {
+	Car1(String company, String model, String color, String engin) {
 		this.company = company;
 		this.model = model;
 		this.color = color;

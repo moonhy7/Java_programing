@@ -3,7 +3,7 @@ package reviewProblem;
 import java.util.Scanner;
 
 public class ch05_2 {
-	public static void main(String[] args) throws Exception {
+	public static void main(String[] args) {
 		//4번 
 		int max = 0;
 		int min = 10;
@@ -91,18 +91,15 @@ public class ch05_2 {
 				}
 			} else if(selectNo == 4) {
 				int maxScore = 0;
-				int num1 = 0;
-				for(int i=0; i<scores.length; i++) {
-//					num1 += scores[i].length;
-				}	
-						
+				int sum1 = 0;
 				for(int i=0; i<scores.length; i++) {
 						if(scores[i]>maxScore) {
 							maxScore = scores[i];
-					}
+					}	sum1 += scores[i];
 				}
+				double avr = (double)sum1 / scores.length;
 				System.out.printf("최고점수: %d \n",maxScore);
-//				System.out.printf("평균점수: %d",);
+				System.out.println("평균점수: " + avr);
 				
 			} else if(selectNo == 5) {
 				run = false;
