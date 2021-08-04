@@ -5,13 +5,14 @@ public class DmbCellphone extends CellPhone {
 	int channel;
 	
 //	has a...
-	CellPhone cell;
+//	CellPhone cell;
 	
 	// 持失切
 	public DmbCellphone(String moder, String color, int channel) {
 		this.model = model;
 		this.color = color;
 		this.channel = channel;
+		System.out.println("切縦 持失切 Call....");
 	}
 	
 	// 五社球

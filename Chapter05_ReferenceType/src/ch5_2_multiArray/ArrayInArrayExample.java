@@ -16,7 +16,7 @@ public class ArrayInArrayExample {
 		for(int i=0;i< englishScores.length; i++) { //행의 개수
 			for(int k=0; k< englishScores[i].length; k++) { //열의 개수
 				System.out.printf("englishScores[%d][%d] = %d\n", i,k,englishScores[i][k]);
-			}
+			} 
 		}
 		System.out.println();
 		

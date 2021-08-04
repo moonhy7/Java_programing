@@ -10,9 +10,9 @@ public class AdvancedForExample {
 		for(int score : scores) {
 			sum = sum + score;
 		}
-		System.out.println("점수 총합 = " + sum);
+		System.out.println("점수 총합 = " + sum); // 점수 총합 = 432
 		
 		double avg = (double) sum / scores.length;
-		System.out.println("점수 평균 = " + avg);
+		System.out.println("점수 평균 = " + avg); // 점수 평균 = 86.4
 	}
 }

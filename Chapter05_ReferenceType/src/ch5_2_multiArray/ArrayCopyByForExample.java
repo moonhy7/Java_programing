@@ -29,11 +29,6 @@ public class ArrayCopyByForExample {
 			System.out.print(oldIntArray[i] + " ");
 		}
 		System.out.println();
-		System.out.println("배열크기: ");
-		
-		
-		
-		
-		
+		System.out.println("배열크기: " + oldIntArray.length);	
 	}
 }
