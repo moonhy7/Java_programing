@@ -1,4 +1,4 @@
-package ch06_1_oop;
+package ch06_3_Constructor;
 class Contact {
 	String emailAddress;
 	String faxNumber;

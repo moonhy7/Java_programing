@@ -30,9 +30,6 @@ public class Car {
 		this.stop = stop;
 		this.speed = 0;
 	}
-	
-	
-	
-	
+
 	
 }
