@@ -20,6 +20,6 @@ public class CalculatorExample {
 				
 		// °è»ê±â ²ô±â
 		myCalc.powerOff();
-
 	}
 }
+ 

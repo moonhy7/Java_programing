@@ -26,4 +26,4 @@ public class Calculator {
 		return (double)i / j;
 	}
 	
-}
+} 
