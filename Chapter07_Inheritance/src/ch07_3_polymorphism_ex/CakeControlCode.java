@@ -25,6 +25,22 @@ public class CakeControlCode {
 		CheeseCake ca1 = new CheeseCake();
 		Cake ca2 = ca1;
 		
+		Cake ca3 = new CheeseCake();
+//		CheeseCake ca4 = ca3; 불가능!!
+		
+		CheeseCake ca4 = (CheeseCake) ca3; // 강제형변환
+		
+		/*
+		 *  일괄 처리 (배열관점에서 정리)
+		 */
+		
+		Cake[] cakes = new CheeseCake[10];
+		
+		for (int i=0; i< cakes.length; i++) {
+			cakes[i] = new CheeseCake();
+		}
+		
+		
 		
 	}
 }
