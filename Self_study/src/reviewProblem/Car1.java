@@ -1,0 +1,7 @@
+package reviewProblem;
+
+public class Car1 {
+	//»ý¼ºÀÚ
+	Car1(int speed, String model) {
+	}	
+}

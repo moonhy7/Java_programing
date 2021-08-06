@@ -2,7 +2,7 @@ package Implementation;
 
 import java.util.Scanner;
 
-public class Star_7 {
+public class Star_07 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in); 
 		int n = sc.nextInt();

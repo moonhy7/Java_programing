@@ -2,7 +2,8 @@ package ch06_2_Field;
 
 public class CarExample {
 	public static void main(String[] args) {
-		// 객체 생성(인스턴스
+		
+		// 객체 생성 (인스턴스)
 		Car myCar = new Car();
 		
 		// 필드값 읽기

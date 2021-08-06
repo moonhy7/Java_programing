@@ -2,10 +2,10 @@ package ch06_3_Constructor;
 
 public class Car1 {
 	// ÇÊµå
-	String company = "";
-	String model = "";
-	String color = "";
-	String engin = "";
+	String company;
+	String model;
+	String color;
+	String engin;
 	
 	int maxSpeed = 350;
 	int speed;

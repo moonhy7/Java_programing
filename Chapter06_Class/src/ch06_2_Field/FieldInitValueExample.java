@@ -1,11 +1,12 @@
 package ch06_2_Field;
 
 class FieldInitValue {
+	//필드
 	byte byteField;
 	short shortField;
 	int intField;
 	long longField;
-	
+
 	boolean booleanField;
 	char charField;
 	
@@ -18,9 +19,10 @@ class FieldInitValue {
 
 public class FieldInitValueExample {
 	public static void main(String[] args) {
-		//필드
+		//객체 생성
 		FieldInitValue fiv = new FieldInitValue();
 		
+		//필드값 읽기
 		System.out.println("fiv.byteField = " + fiv.byteField);
 		System.out.println("fiv.shortField = " + fiv.shortField);
 		System.out.println("fiv.intField = " + fiv.intField);
@@ -34,9 +36,6 @@ public class FieldInitValueExample {
 		
 		System.out.println("fiv.arrField = " +fiv.arrField);
 		System.out.println("fiv.referenceField = " +fiv.referenceField); //null
-		
-		
-		
-		
+
 	}
 }
