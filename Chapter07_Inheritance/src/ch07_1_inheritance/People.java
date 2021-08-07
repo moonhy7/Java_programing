@@ -11,3 +11,4 @@ public class People {
 		this.ssn = ssn;
 	}
 }
+ 
