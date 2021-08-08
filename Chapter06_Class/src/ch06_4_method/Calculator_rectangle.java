@@ -11,3 +11,4 @@ public class Calculator_rectangle {
 		return width * height;
 	}
 }
+ 

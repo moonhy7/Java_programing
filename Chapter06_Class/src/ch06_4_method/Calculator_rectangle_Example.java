@@ -14,4 +14,4 @@ public class Calculator_rectangle_Example {
 		System.out.println("정사각형 넓이 = " + result1);
 		System.out.println("직사각형 넓이 = " + result2);
 	}
-}
+} 

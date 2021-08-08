@@ -6,7 +6,7 @@ public class CalculatorExample {
 		
 		// 계산기 켜기
 		myCalc.powerOn();
-		
+		 
 		// 계산하기
 		int var1 = myCalc.plus(8,8);
 		System.out.println("var1 : " + var1);

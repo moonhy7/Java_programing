@@ -22,7 +22,7 @@ class Util {
 		// °è»ê±â ²ô±â
 		myCalc.powerOff();
 	}
-}
+} 
 
 public class CalculatorExample2 {
 	public static void main(String[] args) {

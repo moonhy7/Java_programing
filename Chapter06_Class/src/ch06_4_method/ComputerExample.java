@@ -19,5 +19,5 @@ public class ComputerExample {
 		int result4 = myCom.sum2(1,2,3,4,5);
 		System.out.println("result4: " + result4); // 15
 	}	
-}
+} 
 	

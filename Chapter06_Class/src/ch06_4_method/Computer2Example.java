@@ -18,3 +18,4 @@ public class Computer2Example {
 		System.out.println("myCom.sum2(int...values) : " + result3);
 	}
 }
+ 

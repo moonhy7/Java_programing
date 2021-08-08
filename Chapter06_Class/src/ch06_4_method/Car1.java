@@ -7,10 +7,12 @@ public class Car1 {
 	//생성자
 	
 	//메소드
+	
 	// 연료충전 메소드
 	void setGas(int gas) { // 리턴값이 없는 메소드로 매개값을 받아서 gas 필드값을 변경
 		this.gas = gas;
 	} 
+	
 	// 연료잔량 상태
 	boolean isLeftGas() { 
 		if(gas == 0) {
@@ -22,7 +24,7 @@ public class Car1 {
 	}
 	
 	// 주행
-	void run() throws InterruptedException {
+	void run() {
 		while(true) {
 			if(gas > 0 ) {
 				System.out.printf("주행중~~~[gas: %d]\n",gas);

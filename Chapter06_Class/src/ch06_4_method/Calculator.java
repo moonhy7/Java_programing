@@ -16,7 +16,7 @@ public class Calculator {
 //	public double divide(byte i,byte j) {
 //		return 0.0;
 //	}
-	
+	 
 //	int i = (byte) 10;
 	
 	public double divide(int i, int j) {

@@ -17,5 +17,5 @@ public class Computer {
 		}
 		return total;
 	}
-}
+} 
 
