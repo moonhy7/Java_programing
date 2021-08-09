@@ -7,13 +7,12 @@ public class BankAccount {
 	int balance;
 	
 	// »ý¼ºÀÚ
-	public BankAccount(String name ) {
+	public BankAccount(String name) {
 		this(name,"123-456",0);
 	}
 	
 	public BankAccount(String name, String number) {
 		this(name,number,0);
-
 	}
 	
 	public BankAccount(String name, String number, int balance) {
