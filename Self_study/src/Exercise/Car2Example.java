@@ -15,6 +15,7 @@ public class Car2Example {
 			System.out.println("gas를 주입하세요");
 		}
 		
+		System.out.println(myCar.a);
 		
 	}
 }

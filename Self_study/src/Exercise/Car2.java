@@ -3,8 +3,12 @@ package Exercise;
 public class Car2 {
 	//필드
 	int gas;
+	int a;
 	
 	//생성자
+	Car2() {
+		a = 10; // 인스턴스 필드는 생성자에서 초기화 가능
+	}
 	
 	//메소드
 	void setGas(int gas) {
