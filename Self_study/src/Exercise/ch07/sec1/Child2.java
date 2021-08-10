@@ -9,8 +9,9 @@ public class Child2 extends Parent2 {
 		this("홍길동");
 		System.out.println("Child() call");
 	}
-		public Child2(String name) {
-			this.name = name;
-			System.out.println("Child(String name) call");
-		}
+	//생성자
+	public Child2(String name) {
+		this.name = name;
+		System.out.println("Child(String name) call");
 	}
+}
