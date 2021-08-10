@@ -1,6 +1,6 @@
-package Exercise.ch07;
+package Exercise.ch06.exam04;
 
-import Exercise.ch06.AA;
+import Exercise.ch06.exam03.AA;
 
 public class CC {
 	public CC() {

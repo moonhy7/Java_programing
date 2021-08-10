@@ -1,4 +1,4 @@
-package Exercise.ch06;
+package Exercise.ch06.exam03;
 
 public class AA {
 	// ÇÊµå
