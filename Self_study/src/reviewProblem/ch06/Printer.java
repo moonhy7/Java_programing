@@ -1,4 +1,4 @@
-package reviewProblem;
+package reviewProblem.ch06;
 
 public class Printer {
 	//¸Þ¼Òµå

@@ -9,7 +9,7 @@ public class DmbCellphone extends CellPhone {
 	
 	// 생성자
 	public DmbCellphone(String moder, String color, int channel) {
-		this.model = model;
+		this.model = model; // CellPhone 클래스로부터 상속받은 필드
 		this.color = color;
 		this.channel = channel;
 		System.out.println("자식 생성자 Call....");

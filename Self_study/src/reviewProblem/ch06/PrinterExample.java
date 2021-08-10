@@ -1,4 +1,4 @@
-package reviewProblem;
+package reviewProblem.ch06;
 
 public class PrinterExample {
 	public static void main(String[] args) {

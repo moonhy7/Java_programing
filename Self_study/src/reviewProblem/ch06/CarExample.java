@@ -1,4 +1,4 @@
-package reviewProblem;
+package reviewProblem.ch06;
 
 class Car {
 	//»ý¼ºÀÚ

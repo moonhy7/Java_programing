@@ -1,5 +1,4 @@
-package reviewProblem;
-
+package reviewProblem.ch06;
 
 //3¹ø
 public class Member1Example {

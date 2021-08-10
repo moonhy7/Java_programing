@@ -1,4 +1,4 @@
-package reviewProblem;
+package reviewProblem.ch06;
 
 public class Member2 {
 	String name;

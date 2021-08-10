@@ -1,4 +1,4 @@
-package reviewProblem;
+package reviewProblem.ch06;
 
 // ch06_2 # 3¹ø
 public class Member1 {

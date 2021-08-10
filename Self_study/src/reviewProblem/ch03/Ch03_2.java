@@ -1,4 +1,4 @@
-package reviewProblem;
+package reviewProblem.ch03;
 
 import java.util.Scanner;
 

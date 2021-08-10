@@ -1,4 +1,4 @@
-package reviewProblem;
+package reviewProblem.ch06;
 // ch06_3_#3
 public class Board {
 	String title;

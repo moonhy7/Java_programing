@@ -1,4 +1,4 @@
-package reviewProblem;
+package reviewProblem.ch02;
 
 public class Ch02_3 {
 	public static void main(String[] args) {

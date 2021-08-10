@@ -1,4 +1,4 @@
-package reviewProblem;
+package reviewProblem.ch04;
 
 import java.io.IOException;
 import java.util.Scanner;
