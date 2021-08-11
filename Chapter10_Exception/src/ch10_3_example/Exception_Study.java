@@ -1,6 +1,6 @@
 package ch10_3_example;
 
-public class Exception_study {
+public class Exception_Study {
 	
 /**
 * [오류]
@@ -17,7 +17,7 @@ public class Exception_study {
 *  예시 ) 파일 입출력 시 API 이용
 *  	: API 함수에서 예외를 알아서 처리한다면...? (x)
 * 	
-* 		write() {								관리프로그램
+* 		write() throws ... {	 				관리프로그램
 * 			권한 (권한이 있나?)			오류발생		try
 * 			파일존재 (파일이 있나?)     -------->  	write();
 * 			파일용량 (여분이 있나?)		   보고		
