@@ -1,4 +1,4 @@
-package ch10_2_exception_handling;
+package ch10_3_example;
 
 import java.util.Scanner;
 
