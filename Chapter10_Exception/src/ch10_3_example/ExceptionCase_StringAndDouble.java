@@ -1,7 +1,8 @@
 package ch10_3_example;
 
-import java.util.InputMismatchException; // util에 있는건 import 필수
-import java.util.Scanner; // but, lang에 있는건 그냥 쓸 수 있음
+// java.lang에 있는건 그냥 쓸 수 있지만 java.util에 있는건 import 필수임
+import java.util.InputMismatchException;
+import java.util.Scanner; 
 
 public class ExceptionCase_StringAndDouble {
 	public static void main(String[] args) {
@@ -10,8 +11,8 @@ public class ExceptionCase_StringAndDouble {
 		
 		Scanner sc = new Scanner(System.in);
 		
-		// 예외 나온거 밑 줄 클릭하면 어디서 예외나온지 알려줌
-		// 그 코드를 catch안으로 넣어줌
+		// 예외 출력 결과 클릭하면 몇번째 라인에서 예외가 발생한건지 알려준다.
+		// 그 코드는 예외 발생 가능성이 있는 코드이므로 catch 안으로 넣어준다.
 
 		try {
 			System.out.print("a / b 식에 사용될 a 값을 입력하세요 > ");
@@ -19,6 +20,11 @@ public class ExceptionCase_StringAndDouble {
 			
 			System.out.print("a / b 식에 사용될 b 값을 입력하세요 > ");
 			double n2 = sc.nextDouble();
+			
+			if(Double.isInfinite(n1/n2)) {
+				throw new ArithmeticException(); 
+				// infinity가 나오는 현상 해결 - 예외로 출력하고싶다면 그 예외 객체를 throw 하기
+			}
 			
 			System.out.printf("%f / %f = %f\n", n1, n2, (double)n1/n2);
 		
@@ -29,6 +35,7 @@ public class ExceptionCase_StringAndDouble {
 		} finally {
 			System.out.println("프로그램 종료");
 		}
+		
 	}
 }
 
