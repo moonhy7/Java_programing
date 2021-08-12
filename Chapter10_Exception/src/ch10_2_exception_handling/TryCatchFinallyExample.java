@@ -5,11 +5,9 @@ public class TryCatchFinallyExample {
 		String data1 = null;
 		String data2 = null;
 		
-		
 		try {
 			data1 = args[0];
 			data2 = args[1];
-//			Class clazz = Class.forName("java.lang.String");
 		} catch (ArrayIndexOutOfBoundsException e) {
 			System.out.println("½ÇÇà ");
 		}

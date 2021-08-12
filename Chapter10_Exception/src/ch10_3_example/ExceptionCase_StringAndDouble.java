@@ -13,7 +13,7 @@ public class ExceptionCase_StringAndDouble {
 		
 		// 예외 출력 결과 클릭하면 몇번째 라인에서 예외가 발생한건지 알려준다.
 		// 그 코드는 예외 발생 가능성이 있는 코드이므로 catch 안으로 넣어준다.
-
+		
 		try {
 			System.out.print("a / b 식에 사용될 a 값을 입력하세요 > ");
 			double n1 = sc.nextDouble();
