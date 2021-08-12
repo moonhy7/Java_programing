@@ -14,7 +14,7 @@ public class ExceptionExample {
 			e.printStackTrace();
 //			System.out.println("결과값이 천을 넘습니다. 확인 요망!");
 			
-		} catch (BizNagativeNumberException e) {
+		} catch (BizNegativeNumberException e) {
 			System.out.println(e.toString());
 			System.out.println(e.getMessage());
 //			System.out.println("결과값이 음수입니다. 확인 요망!");

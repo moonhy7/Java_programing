@@ -4,22 +4,22 @@ public class Calculator { // 계산기 유틸, 언제나 쓸 수 있는 라이브러리 코드임
 	
 	// 업무적으로 x + y 값이 1,000을 넘으면 에러 발생
 	// 업무적으로 x + y 값이 음수이면 에러 발생
-	public static int add(int x, int y) throws BizThousandOverException, BizNagativeNumberException  {
+	public static int add(int x, int y) throws BizThousandOverException, BizNegativeNumberException  {
 		int result = x + y;
 		if(result >1_000) {
 			throw new BizThousandOverException(); // 예외 객체를 던진다.
 		}
 		if(result < 0) {
-			throw new BizNagativeNumberException(); // 예외객체를 여러 개 만들 수 있음
+			throw new BizNegativeNumberException(); // 예외객체를 여러 개 만들 수 있음
 		}
 		return result;
 	}
 	
 	// 업무적으로 x - y 값이 음수이면 에러 발생
-	public static int sub(int x, int y) throws BizNagativeNumberException {
+	public static int sub(int x, int y) throws BizNegativeNumberException {
 		int result = x - y;
 		if(result < 0) {
-			throw new BizNagativeNumberException();
+			throw new BizNegativeNumberException();
 			}
 		return result;
 	}
