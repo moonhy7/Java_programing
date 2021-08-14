@@ -20,7 +20,7 @@ public class AnimalExample {
 		
 		// 메소드의 다형성
 		animalSound(new Dog());
-		animalSound(new Dog());		
+		animalSound(new Cat());		
 	}
 	public static void animalSound(Animal animal) {
 		animal.sound();
