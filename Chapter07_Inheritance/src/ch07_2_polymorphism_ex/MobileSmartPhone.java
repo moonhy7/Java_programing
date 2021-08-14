@@ -1,4 +1,4 @@
-package ch07_3_polymorphism_ex;
+package ch07_2_polymorphism_ex;
 
 class MobilePhone {
 	//ÇÊµå

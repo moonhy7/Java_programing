@@ -1,4 +1,4 @@
-package ch07_4_abstract_class;
+package ch07_3_abstract_class;
 //추상(규격) 클래스
 abstract class Animal {
 	public String kind;

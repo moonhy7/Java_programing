@@ -1,4 +1,4 @@
-package ch07_3_polymorphism_ex;
+package ch07_2_polymorphism_ex;
 
 // 대학친구
 class UnivFriend {
