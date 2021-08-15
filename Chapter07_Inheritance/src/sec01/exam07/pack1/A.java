@@ -1,13 +1,12 @@
 package sec01.exam07.pack1;
 
 public class A {
+	// 필드
 	protected String field;
 	
-	protected A() {
-		
-	}
+	// 생성자
+	protected A() {}
 	
-	protected void method() {
-		
-	}
+	// 메소드
+	protected void method() {}
 }

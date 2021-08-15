@@ -17,7 +17,6 @@ class Friend {
 		System.out.println("이름 : " + name);
 		System.out.println("전화번호 : " + phone);
 	}
-
 }
 
 // 자식 클래스 - 대학 친구
@@ -35,7 +34,7 @@ class UnivFriend extends Friend {
 	@Override
 	public void showInfo() {
 		super.showInfo();
-		System.out.println("전공 : major");
+		System.out.println("전공 : " + major);
 	}
 }
 
