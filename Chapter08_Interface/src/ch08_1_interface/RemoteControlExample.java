@@ -13,21 +13,24 @@ interface RemoteControl {
 }
 
 // 구현 클래스 Television
-class Television implements RemoteControl {
+class Television implements RemoteControl { // TV가 RemoteControl의 기능을 구현
 	// 필드
 	private int volume;
 	
-	// turnOn() 메소드의 실체 메소드
+	// turnOn() 추상 메소드의 실체 메소드
+	@Override
 	public void turnOn() {
 		System.out.println("TV를 켭니다.");
 	}
 	
-	// turnOff() 메소드의 실체 메소드
+	@Override
 	public  void turnOff() {
 		System.out.println("TV를 끕니다.");
 	}
 	
-	// setVolume() 메소드의 실체 메소드
+	// setVolume() 추상 메소드의 실체 메소드
+	// 인터페이스의 상수를 이용하여 volume 필드 값 제한 
+	@Override
 	public void setVolume(int volume) {
 		if(volume > RemoteControl.MAX_VALUE) {
 			this.volume = RemoteControl.MAX_VALUE; // 최대값을 넘으면 값을 최대값으로 지정(최대값을 못넘도록 해줌)
