@@ -12,7 +12,7 @@ interface RemoteControl {
 		public abstract void setVolume(int volume);	
 }
 
-// 실체 클래스 Television
+// 구현 클래스 Television
 class Television implements RemoteControl {
 	// 필드
 	private int volume;
@@ -40,7 +40,7 @@ class Television implements RemoteControl {
 	}
 }
 
-//실체 클래스 Audio
+//구현 클래스 Audio
 class Audio implements RemoteControl {
 	// 필드
 	private int volume; 
