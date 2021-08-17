@@ -1,4 +1,4 @@
-package mlti_thread;
+package ch12_1_mlti_thread;
 
 public class ThreadA extends Thread { // 메소드 자동 생성 -> Ctrl + Space
 	ThreadA() {

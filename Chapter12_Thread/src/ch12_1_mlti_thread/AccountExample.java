@@ -1,4 +1,4 @@
-package mlti_thread;
+package ch12_1_mlti_thread;
 
 class Withdrawer implements Runnable {
 	Account account = new Account();
@@ -20,6 +20,7 @@ public class AccountExample {
 		/*
 		 * 출금하는 일을 병렬화(멀티 스레딩 구성)
 		 */
+		
 		Runnable withdrawer = new Withdrawer();
 		
 		Thread jworker = new Thread(withdrawer);

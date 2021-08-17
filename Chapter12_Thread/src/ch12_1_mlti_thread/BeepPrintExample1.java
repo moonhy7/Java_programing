@@ -1,4 +1,4 @@
-package mlti_thread;
+package ch12_1_mlti_thread;
 
 import java.awt.Toolkit;
  import javax.swing.JFrame;

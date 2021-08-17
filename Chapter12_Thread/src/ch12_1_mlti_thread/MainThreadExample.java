@@ -1,4 +1,11 @@
-package mlti_thread;
+package ch12_1_mlti_thread;
+
+class A extends Thread {
+	@Override
+	public void run() {
+		
+	}
+}
 
 public class MainThreadExample {
 	public static void main(String[] args) {
@@ -7,6 +14,9 @@ public class MainThreadExample {
 		 * - 동기화(synchronization)
 		 * - 교착상태(deadlock)
 		 */
+		
+		Thread th = new A();
+		th.start();
 		
 		Calculator calc = new Calculator();
 		
