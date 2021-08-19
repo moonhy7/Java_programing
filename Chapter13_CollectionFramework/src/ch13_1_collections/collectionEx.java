@@ -10,7 +10,7 @@ import java.util.Map;
 import java.util.Set;
 import java.util.Vector;
 
-class MyClass{}
+//class MyClass {}
 
 public class collectionEx {
 	public static void main(String[] args) {

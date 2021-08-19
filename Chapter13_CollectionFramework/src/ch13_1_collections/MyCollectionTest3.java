@@ -1,6 +1,7 @@
 package ch13_1_collections;
 
 import com.libs.collection.MyList;
+import com.libs.collection.MySmartList;
 import com.libs.collection.MyIntList;
 
 class MyClass {
@@ -18,7 +19,7 @@ public class MyCollectionTest3 {
 		list.add("♥");
 
 		System.out.println(list);
-		System.out.println("list[2]의 값: " + list.get(2));
+//		System.out.println("list[2]의 값: " + list.get(2));
 		System.out.println("size: " + list.size());
 		System.out.println("======================================");
 		
@@ -31,7 +32,7 @@ public class MyCollectionTest3 {
 		list2.add(300); // Auto Boxing
 		
 		System.out.println(list2);
-		System.out.println("list[2]의 값: " + list2.get(2));
+//		System.out.println("list[2]의 값: " + list2.get(2));
 		System.out.println("size: " + list2.size());
 		System.out.println("======================================");
 		
@@ -47,7 +48,7 @@ public class MyCollectionTest3 {
 		// [1, 3, 5, ] -> [1, 5, ]
 		list.remove(1);
 		System.out.println(list);
-		System.out.println("list[2]의 값: " + list.get(2));
+//		System.out.println("list[2]의 값: " + list.get(2));
 		System.out.println("size: " + list.size());
 		System.out.println("======================================");
 		
@@ -56,7 +57,7 @@ public class MyCollectionTest3 {
 		// 초기화하기 -> |0|0|0| 이게 초기화 상태임. 
 		list.clear();
 		System.out.println(list);
-		System.out.println("list[2]의 값: " + list.get(2));
+//		System.out.println("list[2]의 값: " + list.get(2));
 		System.out.println("size: " + list.size());
 		System.out.println("======================================");
 		

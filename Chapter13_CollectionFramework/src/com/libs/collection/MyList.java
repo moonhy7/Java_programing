@@ -5,7 +5,7 @@ package com.libs.collection;
 
 public interface MyList<E> { // element 타입을 받음 -> 어떤 형이든 받을 수 있음
 	public abstract void add(E element);
-	public abstract E get(int index);
+	//public abstract E get(int index);
 	public abstract int size();
 	public abstract void remove(int num);
 	public abstract void clear();

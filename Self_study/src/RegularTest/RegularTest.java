@@ -21,8 +21,6 @@ public class RegularTest {
 		// 문제해결 시나리오 2
 		Util u = new Util();
 		System.out.println(u.findPi());
-		
-		
 	}
 }
 

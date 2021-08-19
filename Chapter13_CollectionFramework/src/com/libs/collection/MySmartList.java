@@ -48,10 +48,10 @@ public class MySmartList<E> implements MyList<E> {
 			elementData[cursor++] = e;
 	}
 	
-	@Override
-	public E get(int index) {
-		return index;
-	}
+//	@Override
+//	public E get(int index) {
+//		return 0;
+//	}
 	
 	@Override
 	public int size() {
