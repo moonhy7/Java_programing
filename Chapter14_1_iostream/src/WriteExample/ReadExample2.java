@@ -11,17 +11,17 @@ public class ReadExample2 {
 		
 		char[] buffer = new char[100];
 		
-		Reader rd = new FileReader(path);
+		// Reader rd = new FileReader(path);
 		
-		while(true) {
-			int readCharNum = rd.read(buffer);
-			System.out.println(readCharNum);
-			
-			if(readCharNum == -1) break;
-			
-			for(int i=0; i<readCharNum; i++) {
-				System.out.println(buffer[i]);
-			}
-		}
+//		while(true) {
+//			int readCharNum = rd.read(buffer);
+//			System.out.println(readCharNum);
+//			
+//			if(readCharNum == -1) break;
+//			
+//			for(int i=0; i<readCharNum; i++) {
+//				System.out.println(buffer[i]);
+//			}
+//		}
 	}
 }
