@@ -1,0 +1,6 @@
+id=call1212
+eng_name=jeong
+kor_name=Á¤
+#kor_name=À±
+data=80,90,95
+C:/Temp
