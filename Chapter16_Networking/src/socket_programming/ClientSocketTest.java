@@ -8,7 +8,7 @@ public class ClientSocketTest {
 
 		try {
 			Socket socket = new Socket("localhost", 8111);
-			System.out.println("연결되었습니다." + socket);
+			System.out.println("연결되었습니다.\n" + socket);
 			socket.close();
 		} catch(IOException ex) {}
 	}

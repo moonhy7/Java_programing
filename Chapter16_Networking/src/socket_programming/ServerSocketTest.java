@@ -14,6 +14,9 @@ public class ServerSocketTest {
 			System.out.println("클라이언트 연결 대기중...");
 			Socket clientSocket = serverSocket.accept();
 			
+			System.out.println("연결되었습니다." + serverSocket);
+
+			
 			clientSocket.close();
 			serverSocket.close();
 		
