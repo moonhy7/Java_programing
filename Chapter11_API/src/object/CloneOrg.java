@@ -1,7 +1,7 @@
 package object;
 
 public class CloneOrg {
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		int[] arr = {1, 2, 3, 4, 5};
 		
 		int[] arrCopy = arr.clone();

@@ -8,7 +8,7 @@ class MyClass {}
 
 
 public class Program {
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		Object o1 = new MyClass();
 		
 		int var = 1;

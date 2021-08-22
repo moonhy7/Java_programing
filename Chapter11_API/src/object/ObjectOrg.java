@@ -22,7 +22,7 @@ class Value {
 }
 
 public class ObjectOrg {
-	public static void main(String[] args) {
+	public static void main(StringExample[] args) {
 		Value v1 = new Value(701021);
 		Value v2 = new Value(701021);
 	
