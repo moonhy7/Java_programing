@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.2.4" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <class id="1" language="java" name="com.bitcamp.lecture.comm.Member" project="Chapter17_JDBC Programming" 
+    file="/Chapter17_JDBC Programming/src/com/bitcamp/lecture/comm/Member.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="596" width="450" x="308" y="94"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="2" language="java" name="com.bitcamp.lecture.insert.InsertProgram_Member_1" 
+    project="Chapter17_JDBC Programming" 
+    file="/Chapter17_JDBC Programming/src/com/bitcamp/lecture/insert/InsertProgram_Member_1.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="176" width="175" x="985" y="596"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="3" language="java" name="com.bitcamp.lecture.insert.InsertProgram_Member_direct" 
+    project="Chapter17_JDBC Programming" 
+    file="/Chapter17_JDBC Programming/src/com/bitcamp/lecture/insert/InsertProgram_Member_direct.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="176" width="175" x="278" y="766"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="4" language="java" name="com.bitcamp.lecture.select.SelectProgram" project="Chapter17_JDBC Programming" 
+    file="/Chapter17_JDBC Programming/src/com/bitcamp/lecture/select/SelectProgram.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="176" width="177" x="529" y="783"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="5" language="java" name="com.bitcamp.lecture.select.SelectProgram2" project="Chapter17_JDBC Programming" 
+    file="/Chapter17_JDBC Programming/src/com/bitcamp/lecture/select/SelectProgram2.java" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="176" width="177" x="820" y="742"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>

@@ -17,7 +17,6 @@ class Papers {
 		public void print() {
 			System.out.println(Papers.this.contents);
 		}
-
 	}
 }
 public class UseMemberInner {
